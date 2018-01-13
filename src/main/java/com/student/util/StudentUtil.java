@@ -12,7 +12,7 @@ import java.time.temporal.ChronoUnit;
 /**
  *
  * @author prade
- * Assumtion: After June 30 student is going to in the next grade.
+ * Assumtion: After June 30 student is going to be in the next grade.
  */
 public class StudentUtil 
 {
@@ -35,6 +35,7 @@ public class StudentUtil
         else 
              grade = studentUtil.getGradeOnGivenDate(args[0], null) ;
         System.out.println("Student Grade : " + grade) ;
+        System.out.println("\nAssumption: After June 30 student is going to be in the next grade ") ;
     }
     private static void usage() 
     {
