@@ -45,6 +45,7 @@ public class StudentUtil
     {
 
     }
+    //Assumtion: After June 30 student is going to in the next grade.
     public int getGradeOnGivenDate(String highSchoolGradDate, String givenDate)
     {
        int returnValue=0;
